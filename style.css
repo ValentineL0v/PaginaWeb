@@ -1,0 +1,74 @@
+/* Estilos generales */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f2f5;
+    color: #333;
+}
+
+/* Estilos base para el fondo y la letra */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7f6;
+    color: #2c3e50;
+}
+
+/* Regla 1: Diseño del título superior */
+.encabezado-principal {
+    background-color: #2e7d32;
+    color: #ffffff;
+    text-align: center;
+    padding: 30px 15px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+/* Regla 2: Contenedor flexible para poner las fotos lado a lado */
+.galeria-contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Regla 3: Diseño de tarjeta para cada paisaje */
+.tarjeta-paisaje {
+    background-color: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+    max-width: 450px;
+    margin: 0;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+}
+
+/* Regla 4: Control del tamaño de las imágenes */
+.imagen-adaptable {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Regla 5: Estilo para los subtítulos informativos */
+.descripcion-paisaje {
+    padding: 20px;
+    font-size: 1rem;
+    line-height: 1.5;
+    background-color: #ffffff;
+    border-top: 3px solid #81c784;
+}
+
+/* Regla del pie de página */
+.pie-pagina {
+    text-align: center;
+    padding: 20px;
+    background-color: #1b5e20;
+    color: #ffffff;
+    font-size: 0.9rem;
+    margin-top: 40px;
+}
+
